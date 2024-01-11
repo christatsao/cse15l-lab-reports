@@ -60,7 +60,7 @@ en-us.txt
 Moving on, below are illustrated examples of using each commands with a path to a directory.
 #Passing directories as arguments)
 
-#`cd`
+`cd`
 
 ```
 [user@sahara ~]$ pwd
@@ -74,7 +74,7 @@ Moving on, below are illustrated examples of using each commands with a path to 
 
 - Using `cd` with paths to directories changes the working directory to the specified directory. As you can see, the working directory at the beginning of the code is the root, and I then changed into lecture1, and then also showed an example of changing into messages from lecture1 and so on. This output is expected and is not an error. This happens because `cd` is a command that is supposed to navigate between directories.
 
-#`ls`
+`ls`
 
 ```
 [user@sahara ~]$ pwd
@@ -93,7 +93,7 @@ ls: cannot access 'messages': No such file or directory
 
 - Using `ls` with a path to a directory prints the files in the referenced directory. This is not an error. This will throw an error, however, if you are referencing a directory that doesn't exist. For example, I tried to reference `/messages` while in the root directory, and it threw the error saying that it didn't exist. This happened because `ls` prints the files of the referenced directory, so the above output is expected.
 
-#`cat`
+`cat`
 ```
 [user@sahara ~]$ pwd
 /home
@@ -106,11 +106,13 @@ cat: lecture1/messages/: Is a directory
 
 - Using `cat` with a path to a directory just prints `cat: ` [insert the path given] `: Is a directory`. This is not an error, and it is expected output because cat prints the file contents, so cat will print that what you're giving it is a directory and not a file it can print. The working directory in the example is the root directory.
 
+-------------------------------------------
+
 Lastly, below are illustrated examples of using each command with a path to a file as an argument.
 #Passing a path to a file as an argument)
 
 
-#`cd`
+`cd`
 
 ```
 [user@sahara ~]$ cd lecture1/messages/
@@ -120,7 +122,7 @@ bash: cd: en-us.txt: Not a directory
 
 - Using `cd` with paths to files just prints that it is not a directory. This output is expected and is not an error. This happens because `cd` is a command that is supposed to navigate between directories. The working directory in the above example is `~lecture1/messages`.
 
-#`ls`
+`ls`
 
 ```
 [user@sahara ~]$ pwd
@@ -139,7 +141,7 @@ Hello.java
 
 - Using `ls` with a path to a file prints the file's name. This is not an error. This happened because `ls` prints the files of the referenced directory, and since you are giving it just a path to a file, it will just print the name of the file. The working directory in this case was the root directory, and was then the lecture1 directory.
 
-#`cat`
+`cat`
 
 ```
 [user@sahara ~/lecture1]$ cat Hello.class
