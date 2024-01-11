@@ -4,7 +4,8 @@
 
 Today, the basic filesystem commands we covered are `cd`, `ls`, and `cat`. 
 Below are illustrated examples of using each commands with no arguments:
-#1) No arguments
+
+# 1) No arguments
 
 `cd`
 
@@ -58,7 +59,8 @@ en-us.txt
 ```
 -------------------------------------------
 Moving on, below are illustrated examples of using each commands with a path to a directory.
-#Passing directories as arguments)
+
+# 2) Passing directories as arguments
 
 `cd`
 
@@ -109,7 +111,8 @@ cat: lecture1/messages/: Is a directory
 -------------------------------------------
 
 Lastly, below are illustrated examples of using each command with a path to a file as an argument.
-#Passing a path to a file as an argument)
+
+# 3) Passing a path to a file as an argument
 
 
 `cd`
