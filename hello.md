@@ -2,6 +2,8 @@
 ## Christa Tsao
 ## Thursday, Jan 11, 2024
 
+![Image](dog.png)
+
 Today, the basic filesystem commands we covered are `cd`, `ls`, and `cat`. 
 Below are illustrated examples of using each commands with no arguments:
 
