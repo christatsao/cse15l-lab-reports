@@ -5,7 +5,8 @@
 Today, the basic filesystem commands we covered are `cd`, `ls`, and `cat`. 
 Below are illustrated examples of using each commands with no arguments:
 #1) No arguments
-##`cd`
+
+`cd`
 
 `[user@sahara ~]$ cd`
 
@@ -18,7 +19,7 @@ Below are illustrated examples of using each commands with no arguments:
 /home
 ```
 
-##`ls`
+`ls`
 
 ```
 [user@sahara ~]$ cd
@@ -31,7 +32,7 @@ Hello.class  Hello.java  messages  README
 
 - `ls` when given no arguments lists the files and directories in the current directory. In the above example, `ls` used in the root directory lists the `lecture1` directory. Following that example, I change directory into `lecture1`, and display the files and directories there. This is not an error. It follows that the expected output of `ls` matches the output given in the above example.
 
-##`cat`
+`cat`
 
 ```
 [user@sahara ~/lecture1]$ cat
@@ -55,7 +56,7 @@ en-us.txt
 en-us.txt
 ^C
 ```
-
+-------------------------------------------
 Moving on, below are illustrated examples of using each commands with a path to a directory.
 #Passing directories as arguments)
 
