@@ -9,7 +9,7 @@ Below are illustrated examples of using each commands with no arguments:
 
 `[user@sahara ~]$ cd`
 
-- This command when used with no arguments takes you back to the root directory. The above command was executed in the root directory already, but below is an example that is executed inside 'home/lecture1/messages`.
+- This command when used with no arguments takes you back to the root directory. The above command was executed in the root directory already, but below is an example that is executed inside `~/lecture1/messages`.
   
 ```
 [user@sahara ~]$ cd lecture1/messages/
@@ -17,3 +17,33 @@ Below are illustrated examples of using each commands with no arguments:
 [user@sahara ~]$ pwd
 /home
 ```
+
+#`ls`
+
+```
+[user@sahara ~]$ cd
+[user@sahara ~]$ ls
+lecture1
+[user@sahara ~]$ cd lecture1/
+[user@sahara ~/lecture1]$ ls
+Hello.class  Hello.java  messages  README
+```
+
+- `ls` when given no arguments lists the files and directories in the current directory. In the above example, `ls` used in the root directory lists the `lecture1` directory. Following that example, I change directory into `lecture1`, and display the files and directories there.
+
+#`cat`
+
+```
+[user@sahara ~/lecture1]$ cat
+```
+
+- `cat` given no arguments does not return anything and the code hangs. The above example was executed in `~/lecture1`, but the command `cat` given no arguments hangs regardless of the working directory based on my observations.
+
+```
+[user@sahara ~/lecture1]$ cd
+[user@sahara ~]$ cat
+^C
+[user@sahara ~]$
+```
+
+
