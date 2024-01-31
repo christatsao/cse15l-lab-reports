@@ -1,1 +1,6 @@
 ![interaction](https://github.com/christatsao/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-30%20at%2011.12.24%20PM.png)
+![chat server](Screen Shot 2024-01-30 at 11.31.44 PM.png)
+![interaction](https://github.com/christatsao/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-30%20at%2011.12.24%20PM.png)
+![interaction](https://github.com/christatsao/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-30%20at%2011.12.24%20PM.png)
+![interaction](https://github.com/christatsao/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-30%20at%2011.12.24%20PM.png)
+![interaction](https://github.com/christatsao/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-30%20at%2011.12.24%20PM.png)
