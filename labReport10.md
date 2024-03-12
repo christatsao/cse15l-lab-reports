@@ -1,6 +1,6 @@
-## Christa Tsao
-## CSE15L 
-## Tue Mar 12 2024
+### Christa Tsao
+### CSE15L 
+### Tue Mar 12 2024
 
 # An Edstem Debugging Scenario...
 ----------------------------------
