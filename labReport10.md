@@ -8,7 +8,7 @@
 ----------------------------------
 ![Screenshot showing symptom](symptom.png)
 
-Hi, I cannot seem to figure out what is wrong with my code. I ran the testing script and testMerge is failing by timing out. I assume that it is due to some infinite loop, but since there are four loops in the code I cannot identify which of the loops is causing the symptom.
+*Hi, I cannot seem to figure out what is wrong with my code. I ran the testing script and testMerge is failing by timing out. I assume that it is due to some infinite loop, but since there are four loops in the code I cannot identify which of the loops is causing the symptom.*
 
 Here is the original code.
 
@@ -19,7 +19,8 @@ Here is the original code.
 ### TA's Reply:
 ----------------------------------
 
-Guiding question: In the second screenshot, what does the third while loop do?
+Guiding question: 
+*In the second screenshot, what does the third while loop do?*
 
 ----------------------------------
 ----------------------------------
@@ -27,7 +28,7 @@ Guiding question: In the second screenshot, what does the third while loop do?
 (Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.)
 ----------------------------------
 
-After analyzing the third while loop, I recognized that the index that is being incremented is not corresponsding to the correct list. I changed index1 to index2 and the code now runs correctly.
+*After analyzing the third while loop, I recognized that the index that is being incremented is not corresponsding to the correct list. I changed index1 to index2 and the code now runs correctly.*
 
 ![Screenshot showing fixed output](successOutput.png)
 
@@ -189,6 +190,6 @@ class ListExamples {
 ------------------------
 ## Part 2 – Reflection
 
-### In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn't know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn't have to be specifically related to a lab writeup, we just want to hear about cool things you learned!
+#### In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn't know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn't have to be specifically related to a lab writeup, we just want to hear about cool things you learned!
 
-I learned more in depth about how to use the terminal, and I think vim was the most helpful to learn. I learned how to generate ssh keys so I don't need to input passwords, and how to create a github pages website, just to name a few of the things. It was a really helpful course overall.
+*I learned more in depth about how to use the terminal, and I think vim was the most helpful to learn. I learned how to generate ssh keys so I don't need to input passwords, and how to create a github pages website, just to name a few of the things. It was a really helpful course overall.*
