@@ -22,15 +22,16 @@ Here is the original code.
 Guiding question: In the second screenshot, what does the third while loop do?
 
 ----------------------------------
+----------------------------------
 ### Student's Reply:
 (Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.)
-
 ----------------------------------
 
 After analyzing the third while loop, I recognized that the index that is being incremented is not corresponsding to the correct list. I changed index1 to index2 and the code now runs correctly.
 
 ![Screenshot showing fixed output](successOutput.png)
 
+----------------------------------
 ----------------------------------
 ### Summary
 ----------------------------------
