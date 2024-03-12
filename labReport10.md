@@ -38,7 +38,7 @@ Guiding question:
 ----------------------------------
 
 #### The file & directory structure needed
-- file and directory structure needed:
+
 ![Screenshot showing file directory](fileDirectoryStructure.png)
 
 ### The contents of each file before fixing the bug
